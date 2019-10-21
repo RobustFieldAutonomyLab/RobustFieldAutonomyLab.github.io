@@ -1,0 +1,24 @@
+.video-error,
+.video-error body {
+  height: 100%;
+  margin: 0;
+}
+.video-error .l-page-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #000;
+}
+
+.video-error .error-message {
+  margin: 0 16px;
+  color: #fff;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.video-error .error-message a {
+  color: #00aaeb;
+  text-decoration: none;
+}
